@@ -33,12 +33,12 @@ $ login
 
 ### API
 
-Paystack CLI allows you to make API calls to the Paystack API right from the terminal, for example to initialize a transaction, run 
+Paystack CLI allows you to make API calls to the Paystack API right from the terminal, for example to initialize a transaction, run
 
 ```sh
 $ transaction initialize --amount 1000 --email customer@email.com
 ```
-The terminal's output would look like this 
+The terminal's output would look like this
 
 ```sh
 authorization_url - - - -- - -- - - - - - -  - - - -  - https://checkout.paystack.com/9wvzhxlk66uylzp
@@ -98,7 +98,7 @@ $ webhook ping --domain live
 
 #### output
 ```sh
--  - - - - - - -  - - -  - - - -   - - - --  -- - - - - - - 
+-  - - - - - - -  - - -  - - - -   - - - --  -- - - - - - -
 Sending sample charge.success event payload to https://paycash.pstk.xyz/pay/pstk-webhook?country=ng
 401 - - Unauthorized
 Unauthorized
@@ -124,5 +124,3 @@ License
 ----
 
 MIT
-
-
